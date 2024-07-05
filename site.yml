@@ -1,5 +1,5 @@
 ---
-- hosts: 10.16.9.28
+- hosts: web servers
   become: true
   tasks:
     - name: Print OS info
